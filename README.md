@@ -1,4 +1,4 @@
-# BICEP deploy of AVD using Win 11 Ent Multi-Session
+# Bicep deploy of AVD using Win 11 Ent Multi-Session
 Used BICEP as a Domain Specific Language (DSL) to deploy a traditional Hub and Spoke architecture.  Solution secured using Azure Firewall, Azure Bastion and Private Link.  Used Private Endpoint to connect to Azure Files storage in conjunction with FSLogix Profile Containers.  In turn, supporting the use of Windows 11 Ent Multi-Session.  Also showcased the use of Azure Compute Gallery to store multiple replicas of Golden images across Azure regions.  
 <br>
 Note. The deployment assumes an empty Resource Group and provisions a test Windows Server AD, handles domain join and registration of new Session Hosts.
