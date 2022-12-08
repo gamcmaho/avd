@@ -56,7 +56,9 @@ Change directory to "avd" and modify the main "parameters.json" providing values
 location<br>
 storage_account_name<br>
 vm_gallery_image_id<br>
-token_expiration_time
+token_expiration_time<br>
+total_instances<br>
+vm_size
 <br><br>
 Note.  The storage account name needs to be globally unique and the maximum life time of a token is 30 days.
 <br><br><br>
