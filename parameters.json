@@ -1,0 +1,102 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "<location>"
+        },
+        "storage_account_name": {
+            "value": "<unique storage account name>"
+        },
+        "vm_gallery_image_id": {
+            "value": "<image id>"
+        },
+        "token_expiration_time": {
+            "value": "<token expiry>"
+        },
+        "vm_dc_name": {
+            "value": "vm-dc"
+        },
+        "vm_test_name": {
+            "value": "vm-test"
+        },
+        "vm_rdsh_prefix": {
+            "value": "vm-rdsh"
+        },
+        "total_instances": {
+            "value": number of Session Host VMs, e.g. 3
+        },
+        "vm_size": {
+            "value": "Standard_D2s_v3"
+        },
+        "bastion_name": {
+            "value": "bastion-avd"
+        },
+        "vnet_hub_name": {
+            "value": "vnet-hub"
+        },
+        "vnet_avd_name": {
+            "value": "vnet-avd"
+        },
+        "vnet_shared_name": {
+            "value": "vnet-shared"
+        },
+        "azfw_name": {
+            "value": "azfw-avd"
+        },
+        "avd_rt_name": {
+            "value": "rt-avd"
+        },
+        "shared_rt_name": {
+            "value": "rt-shared"
+        },
+        "workspace_name": {
+            "value": "ws-avd"
+        },
+        "hostpool_name": {
+            "value": "hp-avd"
+        },
+        "dag_name": {
+            "value": "dag-avd"
+        },
+        "rag_name": {
+            "value": "rag-avd"
+        },
+        "private_dns_zone_name": {
+            "value": "privatelink.file.core.windows.net"
+        },
+        "vnet_hub_cidr": {
+            "value": "10.0.0.0/24"
+        },
+        "azfw_subnet_cidr": {
+            "value": "10.0.0.0/26"
+        },
+        "bastion_subnet_cidr": {
+            "value": "10.0.0.64/26"
+        },
+        "vnet_avd_cidr": {
+            "value": "10.2.0.0/24"
+        },
+        "avd_subnet_name": {
+            "value": "snet-avd"
+        },
+        "avd_subnet_cidr": {
+            "value": "10.2.0.0/26"
+        },
+        "vnet_shared_cidr": {
+            "value": "10.1.0.0/24"
+        },
+        "shared_subnet_name": {
+            "value": "snet-shared"
+        },
+        "shared_subnet_cidr": {
+            "value": "10.1.0.0/26"
+        },
+        "custom_dns_servers": {
+            "value": "10.1.0.4"
+        },
+        "modules_url": {
+            "value": "https://wvdportalstorageblob.blob.core.windows.net/galleryartifacts/Configuration_09-08-2022.zip"
+        }
+    }
+}
